@@ -137,7 +137,9 @@ img {
   aspect-ratio: 1/1;
   border-radius: var(--border-radius);
 
-  display: table;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .skill-card img {
