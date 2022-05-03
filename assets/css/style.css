@@ -137,14 +137,7 @@ img {
   aspect-ratio: 1/1;
   border-radius: var(--border-radius);
 
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
-
   display: table;
-  padding-inline: 1em;
-  width: 100%;
-  height: 100%;
 }
 
 .skill-card img {
