@@ -202,7 +202,7 @@ img {
     var(--bg-gradient) padding-box,
     var(--bg-gradient) border-box;
   border-radius: var(--border-radius); 
-  border-collapse: separate;  
+  overflow: hidden;
 }
 
 .project-card h3,
