@@ -10,121 +10,120 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Mulish:wght@200;300;400;500;600;700;800;900&family=Work+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
 	</head>
 
 	<body>
 		<header>
 			<nav>
-				<a class="" href="#skills">Skills</a>
-				<a class="" href="#projects">Projects</a>
-				<a class="" href="#contact">Contact</a>
+				<a class="" href="./index.html">Home</a>
+				<a class="" href="./services.html">Services</a>
+				<a class="" href="./index.html#contact">Contact</a>
 			</nav>
 		</header>
 
-		<section id="intro" class="glass">
-			<section id="intro-text-container">
-				<h1>Hi! I'm <br><span id="name">Leianne.</span></h1>
-				<p>
-						I'm a software engineer living in the San Francisco Bay Area. 
-						I'm interested in building awesome apps and responsive sites, automating tasks with code, and coding models for hydropower research! 
-						In my free time I love watching anime, listening to BTS, and roller skating 🛼
-				</p>
+		<main>
+			<section id="intro">
+				<section id="intro-container" class="glass">
+					<section id="intro-text-container">
+						<h1>Hi! I'm <br><span id="name">Leianne.</span></h1>
+						<p>
+								I'm a software engineer living in the San Francisco Bay Area. 
+								I'm interested in building awesome apps and responsive sites, automating tasks with code, and coding models for hydropower research! 
+								In my free time I love watching anime, listening to BTS, and roller skating 🛼
+						</p>
+					</section>
+					<section id="intro-img-container">
+						<img class="profile-img" src="./assets/images/headshot.jpg" alt="Personal profile picture">
+					</section>
+				</section>		
 			</section>
-			<section id="intro-img-container">
-				<img class="profile-img" src="./assets/images/headshot.jpg" alt="Personal profile picture">
+
+			<section id="skills">
+				<h2>Skills</h2>
+				<ul class="skill-list">
+					<li class="skill-card glass"><img src="./assets/images/skill-icons/html5.svg" alt="HTML"></li>
+					<li class="skill-card glass"><img src="./assets/images/skill-icons/css3.svg" alt="CSS"></li>
+					<li class="skill-card glass"><img src="./assets/images/skill-icons/javascript.svg" alt="JavaScript"></li>
+					<li class="skill-card glass"><img src="./assets/images/skill-icons/python.svg" alt="Python"></li>
+					<li class="skill-card glass"><img src="./assets/images/skill-icons/r.svg" alt="R"></li>
+					<li class="skill-card glass"><img src="./assets/images/skill-icons/git.svg" alt="Git"></li>
+					<li class="skill-card glass"><img src="./assets/images/skill-icons/github.svg" alt="GitHub"></li>
+					<li class="skill-card glass"><img src="./assets/images/skill-icons/accessibility.svg" alt="Accessibility"></li>
+				</ul>
 			</section>
-		</section>
-
-		<section id="skills">
-			<h2>Skills</h2>
-			<ul class="skill-list">
-				<li class="skill-card glass"><img src="./assets/images/skill-icons/html5.svg" alt="HTML"></li>
-				<li class="skill-card glass"><img src="./assets/images/skill-icons/css3.svg" alt="CSS"></li>
-				<li class="skill-card glass"><img src="./assets/images/skill-icons/javascript.svg" alt="JavaScript"></li>
-				<li class="skill-card glass"><img src="./assets/images/skill-icons/python.svg" alt="Python"></li>
-				<li class="skill-card glass"><img src="./assets/images/skill-icons/r.svg" alt="R"></li>
-				<li class="skill-card glass"><img src="./assets/images/skill-icons/git.svg" alt="Git"></li>
-				<li class="skill-card glass"><img src="./assets/images/skill-icons/github.svg" alt="GitHub"></li>
-				<li class="skill-card glass"><img src="./assets/images/skill-icons/accessibility.svg" alt="Accessibility"></li>
-			</ul>
-		</section>
-
-		<section id="projects">
-			<h2>Projects</h2>
-			<ul class="project-list">
-				<li class="project-card glass">
-					<a href="https://leifaj.github.io/whos-that-pokemon/" target="_blank">
+	
+			<section id="projects">
+				<h2>Projects</h2>
+				<ul class="project-list">
+					<li class="project-card glass">
 						<img src="./assets/images/project-pics/whos-that-pokemon.webp" alt="Who’s That Pokémon?">
 						<h3>Who’s That Pokémon?</h3>
 						<p>Try to guess the Pokémon based on its silhouette!</p>
-						<ul class="project-tags">
-							<li>HTML</li>
-							<li>CSS</li>
-							<li>JavaScript</li>
-							<li>REST API</li>
+						<ul class="project-links">
+							<li><a href="https://github.com/leifaj/whos-that-pokemon" target="_blank">Repo</a></li>
+							<li><a href="https://leifaj.github.io/whos-that-pokemon/" target="_blank">Site</a></li>
 						</ul>
-					</a>
-				</li>
-				<li class="project-card glass">
-					<a href="https://leifaj.github.io/pixel-art/" target="_blank">
-						<img src="./assets/images/project-pics/pixel-art.webp" alt="Pixel Art Editor">
-						<h3>Pixel Art Editor</h3>
-						<p>A pixel art drawing app that features an adjustable canvas size, custom pen and canvas colors,
-							preset rainbow/pastel pens, and eraser tool.</p>
-						<ul class="project-tags">
-							<li>HTML</li>
-							<li>CSS</li>
-							<li>JavaScript</li>
-						</ul>
-					</a>
-				</li>
-				<li class="project-card glass">
-					<a href="https://leifaj.github.io/sugar-bakery-site/" target="_blank">
-						<img src="./assets/images/project-pics/sugar-bakery.webp" alt="Sugar Bakery Site">
-						<h3>Sugar Bakery</h3>
-						<p>Fully responsive webpage for a bakery. Features text
-							overlay upon clicking/hovering images, embedded Google Maps,
-							linked social media, and a collapsed navigation menu on mobile.</p>
-						<ul class="project-tags">
-							<li>HTML</li>
-							<li>CSS</li>
-						</ul>
-					</a>
-				</li>
-			</ul>
-		</section>
-
-		<section id="contact">
-			<h2>Let's connect!</h2>
-			<ul class="contact-list">
-				<li class="contact-card glass">
-					<a href="https://github.com/leifaj" target="_blank">
-						<i class="fa-brands fa-github"></i>
-						<h3>GitHub</h3>
-					</a>
-				</li>
-				<li class="contact-card glass">
-					<a href="https://www.linkedin.com/in/leiannefaj/" target="_blank">
-						<i class="fa-brands fa-linkedin"></i>
-						<h3>LinkedIn</h3>
-					</a>
-				</li>
-				<li class="contact-card glass">
-					<a href="https://twitter.com/leiannefaj" target="_blank">
-						<i class="fa-brands fa-twitter"></i>
-						<h3>Twitter</h3>
-					</a>
-				</li>
-				<li class="contact-card glass">
-					<a href="mailto:leianne.fajutagana@gmail.com">
-						<i class="fa-solid fa-envelope"></i>
-						<h3>Email</h3>
-					</a>
-				</li>
-			</ul>
-		</section>
-
+					</li>
+					<li class="project-card glass">
+						<a href="https://leifaj.github.io/pixel-art/" target="_blank">
+							<img src="./assets/images/project-pics/pixel-art.webp" alt="Pixel Art Editor">
+							<h3>Pixel Art Editor</h3>
+							<p>A pixel art drawing app that features an adjustable canvas size, custom pen and canvas colors,
+								preset rainbow/pastel pens, and eraser tool.</p>
+							<ul class="project-links">
+								<li>HTML</li>
+								<li>CSS</li>
+							</ul>
+						</a>
+					</li>
+					<li class="project-card glass">
+						<a href="https://leifaj.github.io/sugar-bakery-site/" target="_blank">
+							<img src="./assets/images/project-pics/sugar-bakery.webp" alt="Sugar Bakery Site">
+							<h3>Sugar Bakery</h3>
+							<p>Fully responsive webpage for a bakery. Features text
+								overlay upon clicking/hovering images, embedded Google Maps,
+								linked social media, and a collapsed navigation menu on mobile.</p>
+							<ul class="project-links">
+								<li>HTML</li>
+								<li>CSS</li>
+							</ul>
+						</a>
+					</li>
+				</ul>
+			</section>
+	
+			<section id="contact">
+				<h2>Let's connect!</h2>
+				<ul class="contact-list">
+					<li class="contact-card glass">
+						<a href="https://github.com/leifaj" target="_blank">
+							<i class="fa-brands fa-github"></i>
+							<h3>GitHub</h3>
+						</a>
+					</li>
+					<li class="contact-card glass">
+						<a href="https://www.linkedin.com/in/leiannefaj/" target="_blank">
+							<i class="fa-brands fa-linkedin"></i>
+							<h3>LinkedIn</h3>
+						</a>
+					</li>
+					<li class="contact-card glass">
+						<a href="https://twitter.com/leiannefaj" target="_blank">
+							<i class="fa-brands fa-twitter"></i>
+							<h3>Twitter</h3>
+						</a>
+					</li>
+					<li class="contact-card glass">
+						<a href="mailto:leianne.fajutagana@gmail.com">
+							<i class="fa-solid fa-envelope"></i>
+							<h3>Email</h3>
+						</a>
+					</li>
+				</ul>
+			</section>
+		</main>
+		
 		<footer>
 		</footer>
 		<script src="https://kit.fontawesome.com/a7a2c3e7aa.js" crossorigin="anonymous"></script>
