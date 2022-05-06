@@ -295,7 +295,6 @@ footer {
 .process-card {
   padding: 1rem;
   border-radius: var(--border-radius);
-  overflow: hidden;
 
   display: table;
   width: 100%;
