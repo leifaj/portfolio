@@ -176,7 +176,6 @@ img {
 
 .project-card:hover {
   transform: scale(1.03);
-  filter: brightness(1.05);
   transition: transform 0.1s ease-in-out, filter 0.1s ease-in-out;
   background: rgba(255, 255, 255, 0.95);
 }
@@ -269,21 +268,6 @@ img {
 
 footer {
   padding-bottom: 2rem;
-}
-
-.services {
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-  text-align: center;
-  margin: 1.5rem 3rem;
-}
-
-.services p a {
-  font-weight: 700;
-  text-decoration: underline;
 }
 
 .process-list {
@@ -414,9 +398,6 @@ footer {
     padding: 1rem;
   }
 
-  .project-list {
-    grid-template-columns: repeat(3, 1fr);
-  }
 }
 
 /* Large Devices */
