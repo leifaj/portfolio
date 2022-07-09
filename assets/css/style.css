@@ -116,6 +116,11 @@ img {
     var(--bg-gradient) border-box;
 }
 
+.download-link {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
 #intro-container {
   padding: 1.5rem;
   border-radius: calc(var(--border-radius) * 2);
@@ -130,9 +135,20 @@ img {
   gap: 1rem;
 }
 
-#intro-text-container{
+#intro-text-container {
   flex-flow: column nowrap;
   text-align: center;
+}
+
+.resume-container {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  padding: 2rem;
 }
 
 .skill-list,
